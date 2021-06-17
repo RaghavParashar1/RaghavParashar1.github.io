@@ -18,5 +18,6 @@ html, body{
    
 
     /* font family variables. */ 
-    --roboto: 'Roboto', cursive;
+    /* --roboto: 'Roboto', cursive; */
+    --domine: 'Domine', serif;
 }
