@@ -71,4 +71,13 @@
     color: white;
 }
 
+/* About Area */
+
+.para{
+    font: 20px/ 22px var(--domine);
+}
+
+.About-area-heading{
+    font: normal bold 40px/ 32px var(--domine);
+}
 
