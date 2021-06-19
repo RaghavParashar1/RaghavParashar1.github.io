@@ -65,8 +65,27 @@ import global styling
 
 /* Start Banner Area*/
 
+.animate{
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+img{opacity: 0}
+
 .site-main .site-banner{
     background: url(../images/banner/home-banner.png) no-repeat;
+}
+
+.site-main .site-banner img{
+    /* opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out; */
+    transition: 1s ease-in-out;
 }
 
 .site-main .site-banner .site-title h3{
