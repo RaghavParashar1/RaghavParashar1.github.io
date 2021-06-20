@@ -161,4 +161,8 @@ img{opacity: 0}
     color: #854fee;
 }
 
+.card-body .title-text {
+    font-size: 2rem;
+}
+
 /* End workex Area */ 
