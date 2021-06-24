@@ -3,21 +3,32 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="Raghav Parashar">
     <title>Raghav Parashar's Portfolio</title>
 
+
     <!-- bootstrap file link-->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 
+
     <!--font awesome link-->
     <link rel="stylesheet" href="./css/all.min.css">
+
+
+    <!--  Owl-carousel css file  -->
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+
 
     <!-- css file link -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/partials/global.css">
     <link rel="stylesheet" href="./css/partials/variables.css">
+
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
@@ -83,8 +94,9 @@
                             <div class="d-flex flex-row flex-wrap">
                                 <button type="button" class="btn button primary-button mr-4 text-uppercase">Hire
                                     Me</button>
-                                <button type="button" onclick="window.open('https://drive.google.com/file/d/15ITrSJIpxtDIQm3KSeU49q7Av8avb3ju/view?usp=sharing', '_blank'); return false;"
-                                target="#" class="btn button secondary-button text-uppercase">Get
+                                <button type="button"
+                                    onclick="window.open('https://drive.google.com/file/d/15ITrSJIpxtDIQm3KSeU49q7Av8avb3ju/view?usp=sharing', '_blank'); return false;"
+                                    target="#" class="btn button secondary-button text-uppercase">Get
                                     Resume</button>
                             </div>
                         </div>
@@ -155,8 +167,9 @@
                             </p>
 
                         </div>
-                        <button type="button" onclick="window.open('https://github.com/RaghavParashar1', '_blank'); return false;"
-                        target="#" class="btn button primary-button text-uppercase">Github Link</button>
+                        <button type="button"
+                            onclick="window.open('https://github.com/RaghavParashar1', '_blank'); return false;"
+                            target="#" class="btn button primary-button text-uppercase">Github Link</button>
 
                     </div>
 
@@ -172,7 +185,7 @@
 
         <section class="workex-area">
 
-            <div class="container" >
+            <div class="container">
                 <h4 class="title-text">Work Experience</h4>
 
                 <div class="container-fluid justify-content-md-center mb-3 px-6">
@@ -180,18 +193,21 @@
                         <div class="card" style="max-width: 720px; border-radius: 20px;">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img onload="this.className='animate card-img'" src="./images/brands/logo1.png" alt="Brand-1 " align: middle>
+                                    <img onload="this.className='animate card-img'" src="./images/brands/logo1.png"
+                                        alt="Brand-1 " align: middle>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h4 class="card-title title-text">Gauge Data Solutions</h4>
-                                        <p class="card-text para">Developed Test Cases of several Networking Protocols like RTP, SIP,
+                                        <p class="card-text para">Developed Test Cases of several Networking Protocols
+                                            like RTP, SIP,
                                             DTMF, etc in Python for Routers/ONT of many companies like CISCO,
-                                            JUNIPER, TEJAS etc and deployed them on company software. Developed UI modules using
+                                            JUNIPER, TEJAS etc and deployed them on company software. Developed UI
+                                            modules using
                                             wx python.</p>
                                         <button type="button"
-                                                onclick="window.open('http://www.gaugeanalytics.com/', '_blank'); return false;"
-                                                target="#" class="btn button primary-button">Company Site</button>
+                                            onclick="window.open('http://www.gaugeanalytics.com/', '_blank'); return false;"
+                                            target="#" class="btn button primary-button">Company Site</button>
                                     </div>
                                 </div>
                             </div>
@@ -203,16 +219,17 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <img onload="this.className='animate card-img'" src="./images/brands/logo2.png"
-                                    alt="Brand-1 ">
+                                        alt="Brand-1 ">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title title-text">GeeksForGeeks</h5>
-                                        <p class="card-text para">Published 20+ articles at GeeksForGeeks as a free lancer, pertaining to topics:
+                                        <p class="card-text para">Published 20+ articles at GeeksForGeeks as a free
+                                            lancer, pertaining to topics:
                                             Python, R, Linux and many more.</p>
                                         <button type="button"
-                                                onclick="window.open('https://auth.geeksforgeeks.org/user/parasharraghav', '_blank'); return false;"
-                                                target="#" class="btn button primary-button">GFG Profile</button>
+                                            onclick="window.open('https://auth.geeksforgeeks.org/user/parasharraghav', '_blank'); return false;"
+                                            target="#" class="btn button primary-button">GFG Profile</button>
                                     </div>
                                 </div>
                             </div>
@@ -224,15 +241,97 @@
 
         <!-- ==================== End Work Experience area ========== -->
 
+        <!-- ==================== Start Project area ================ -->
+
+        <section class="about-area" style="width: 100%; background-color: transparent;">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="about-title">
+                            <h1 class="text-uppercase title-text">
+                                Projects
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel py-lg-5">
+                <div class="owl-carousel owl-theme">
+                    <span class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./images/testimonials/t1.png" alt="img1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase project-title">Trust Management in IoV using BC</h4>
+                            <p class="para">Developed an algorithm for vehicle communication using Internet of Vehicles
+                                and check it’s accuracy by comparing it with present algorithm
+                                Implemented trust management using Private BC to increase security in
+                                IoV.</p>
+                        </div>
+                    </span>
+                    <span class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./images/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase project-title">Shopoholic</h4>
+                            <p class="para">This is a simple e-commerce website built with Django.
+                                The website displays products. Users can add and remove products to/from their cart
+                                while also specifying the quantity of each item.
+                                User can then enter their address and choose Stripe to handle the payment processing.</p>
+                        </div>
+                    </span>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./images/testimonials/t3.png" alt="img1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase project-title">URL Shortener</h4>
+                            <p class="para">TA simple Django project to implement an URL Shortening service. An API
+                                service for shortening links programmatically.
+                                Keeps count of how many time each URL is followed.
+                                Ability to create custom short URLs.
+                                Keeps count of URL.</p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./images/testimonials/t4.png" alt="img2" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase project-title">P2P File Sharing system</h4>
+                            <p class="para">Developed a file-sharing system using Python socket programming.
+                                The server sends the selected file to the client and the client receives the file in the
+                                same folder where the client program is saved.
+                                All communication among the server and client will take place over TCP.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== End Project area ================ -->
     </main>
 
     <!-- ======================== End Main Area ========================-->
-    <!-- jquery js file-->
+    <!--  Jquery js file  -->
     <script src="./js/jquery.js"></script>
-    <!-- bootstrap js file -->
+
+    <!--  Bootstrap js file  -->
     <script src="./js/bootstrap.min.js"></script>
+
+    <!--  isotope js library  -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+
+    <!--  Magnific popup script file  -->
+    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+
+    <!--  Owl-carousel js file  -->
+    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
     <!--  custom js file  -->
     <script src="./js/main.js"></script>
+
 </body>
 
 </html>
