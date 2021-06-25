@@ -212,3 +212,28 @@ img{opacity: 0}
 }
 
 /* End workex Area */ 
+
+/* Footer Area */ 
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../images/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font-size: 1.5rem;
+    font: normal bold 30px/ 30px var(--domine);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+
+/* End Footer */ 
